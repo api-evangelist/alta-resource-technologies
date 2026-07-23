@@ -1,23 +1,75 @@
 aid: alta-resource-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alta-resource-technologies.png
 name: Alta Resource Technologies
-description: Alta Resource Technologies is a company surfaced as a portfolio company of dcvc and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Alta Resource Technologies is a Colorado-based deep-tech company reinventing how
+  critical minerals are sourced. It uses advanced biochemistry — customizable, engineered
+  proteins licensed from Lawrence Livermore National Laboratory and co-developed with
+  researchers at Pennsylvania State University — to selectively separate high-purity rare
+  earth elements and other strategic metals from low-grade ores, mining tailings, and
+  electronic-waste streams such as end-of-life hard disk drives. The protein-based platform
+  binds target elements out of complex, low-concentration solutions with high selectivity
+  while dramatically reducing the environmental footprint of conventional mining and
+  refining, strengthening U.S. and allied critical-mineral supply chains. Alta emerged from
+  stealth in January 2025 and expanded its Series Seed to $10M, backed by DCVC, Voyager
+  Ventures, In-Q-Tel, and Orion Industrial Ventures. As a materials-science and biochemistry
+  company, Alta does not publish a public developer API, SDKs, or a developer portal; this
+  API Evangelist profile carries its identity and website properties only.
 url: https://raw.githubusercontent.com/api-evangelist/alta-resource-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - dcvc
+- voyager-ventures
+- in-q-tel
+- orion-industrial-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-api
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Critical Minerals
+- Rare Earth Elements
+- Biotechnology
+- Mining
+- Materials Science
+- Clean Technology
+- Recycling
+- Supply Chain
 apis: []
+common:
+- type: DomainSecurity
+  url: security/alta-resource-technologies-domain-security.yml
+- type: Website
+  url: https://altatech.io/
+- type: About
+  url: https://altatech.io/about
+- type: TermsOfService
+  url: https://altatech.io/terms-of-use
+- type: PrivacyPolicy
+  url: https://altatech.io/privacy-policy
+- type: Support
+  url: https://altatech.io/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
