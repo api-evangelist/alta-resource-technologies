@@ -49,7 +49,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead-no-api
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-10-06'
 tags:
 - Company
 - Critical Minerals
@@ -62,6 +62,8 @@ tags:
 - Supply Chain
 apis: []
 common:
+- url: https://www.altatech.io/press
+  type: Blog
 - type: DomainSecurity
   url: security/alta-resource-technologies-domain-security.yml
 - type: Website
